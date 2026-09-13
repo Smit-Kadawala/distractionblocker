@@ -24,10 +24,8 @@ Every "site blocker" I tried had some kind of escape hatch - a 5-minute unlock b
 
 ## Screenshots
 
-```md
 ![Popup - adding a site](screenshots/popup.png)
 ![Blocked page](screenshots/blocked.png)
-```
 
 ## Installation
 
@@ -36,7 +34,7 @@ Chrome doesn't allow personal extensions like this to be published without going
 1. **Download this repository**
    - Click the green **Code** button on this repo → **Download ZIP**, or run:
      ```
-     git clone https://github.com/<your-username>/<your-repo>.git
+     git clone https://github.com/Smit-Kadawala/distractionblocker.git
      ```
 2. **Unzip it** (if you downloaded the ZIP) to a folder you'll keep around - don't delete this folder later, Chrome needs it to keep running the extension.
 3. Open Chrome and go to:

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Focus Lock</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h1>Focus Lock</h1>
+  <p class="subtitle">Set a daily limit. Once it's hit, the site is blocked till midnight. No override.</p>
+
+  <div class="add-form">
+    <input type="text" id="siteInput" placeholder="e.g. netflix.com" />
+    <input type="number" id="limitInput" placeholder="Minutes/day" min="1" />
+    <button id="addBtn">Add</button>
+  </div>
+
+  <div id="siteList"></div>
+
+  <template id="siteRowTemplate">
+    <div class="site-row">
+      <div class="site-info">
+        <div class="site-name"></div>
+        <div class="site-progress-track">
+          <div class="site-progress-fill"></div>
+        </div>
+        <div class="site-stats"></div>
+      </div>
+      <div class="site-actions">
+        <input type="number" class="limit-edit" min="1" />
+        <button class="save-btn">Save</button>
+        <button class="remove-btn">Remove</button>
+      </div>
+    </div>
+  </template>
+
+  <script src="popup.js"></script>
+</body>
+</html>

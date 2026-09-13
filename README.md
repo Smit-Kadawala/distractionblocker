@@ -24,8 +24,6 @@ Every "site blocker" I tried had some kind of escape hatch - a 5-minute unlock b
 
 ## Screenshots
 
-> Add your own screenshots here after installing - drag them into the `screenshots/` folder and reference them like below.
-
 ```md
 ![Popup - adding a site](screenshots/popup.png)
 ![Blocked page](screenshots/blocked.png)
